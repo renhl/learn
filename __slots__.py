@@ -8,7 +8,7 @@ s = Stu()                       # 创建一个实例
 s.name = 'linda'                # 绑定属性name
 s.score = 98                    # 绑定属性score
 # s.age  = 23
-try:
+try:                            # 捕获AttributeError异常并抛出
     s.age = 23
 except AttributeError as e:
     print('AttributeError',e)
