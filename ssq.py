@@ -13,4 +13,5 @@ l = random.sample(range(1,17),1)
 
 h1 = str(h)[1:len(str(h))-1]     # 将list中的元素依次放入h1中
 l1 = str(l)[1:len(str(l))-1]
+
 print("红球：",h1,"蓝球:",l1)
