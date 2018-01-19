@@ -12,10 +12,10 @@ def login():
 	data ={"areaCode":"021",							# 需要传入的body
 		   "areaName":"上海",
 		   "client":"20",
-		   "password":"123456a",
+		   "password":"146a",
 		   "tchType":"2",
-		   "username":"卡莉斯塔"}
-	url = "http://123.56.218.92/dtt/login/v1/login"
+		   "username":"卡莉"}
+	url = ""
 	r = requests.post(url,data=data)
 	d = r.json()
 	print(r.status_code)              					 #  打印响应状态码
